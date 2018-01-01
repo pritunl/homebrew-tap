@@ -1,9 +1,9 @@
 class PritunlSsh < Formula
   desc "Pritunl Zero SSH Client"
   homepage "https://zero.pritunl.com"
-  version "1.0.765.26"
+  version "1.0.769.95"
   url "https://github.com/pritunl/pritunl-zero-client/archive/#{version}.tar.gz"
-  sha256 "efc3a1abb934d314d687fffde6d06ceb1652d2b15b23a0f0e91fa29c90af096e"
+  sha256 "ac35870af947c37f1a3430056af89091ca39741e6de9ce30b5a6e231667c262d"
 
   def install
     binary_name = "pritunl-ssh"
